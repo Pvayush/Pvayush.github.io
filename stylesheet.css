@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #f6efe5 0%, #efe4d2 100%);
+  color: #203128;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #8d2f23;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  color: #d46a4c;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 18px;
+  margin-top: 1rem;
+}
+
+.panel {
+  background-color: rgba(255, 250, 242, 0.92);
+  margin: 1.5rem auto;
+  padding: 1.75rem;
+  width: min(90%, 860px);
+  border: 3px solid #233a2c;
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(35, 58, 44, 0.12);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 42rem;
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.85rem 1.2rem;
+  background-color: #233a2c;
+  color: #fffaf2;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.button-link:hover {
+  color: #fffaf2;
+  background-color: #4e6b57;
+}
+
+#hero {
+  padding: 4.5rem 5vw 2rem;
+  background:
+    radial-gradient(circle at top right, rgba(212, 106, 76, 0.3), transparent 28%),
+    linear-gradient(135deg, #fff7ec 0%, #e9dbc3 100%);
+  border-bottom: 4px solid #233a2c;
+}
+
+#hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  line-height: 0.95;
+  margin-bottom: 0.75rem;
+}
+
+.panel p {
+  line-height: 1.7;
+}
